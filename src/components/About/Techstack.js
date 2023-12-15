@@ -24,45 +24,43 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+        <p style={{ fontSize: "1rem" }}>C++</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <p style={{ fontSize: "1rem" }}>Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
+        <p style={{ fontSize: "1rem" }}>Solidity</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiReact />
+        <p style={{ fontSize: "1rem" }}>React.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <p style={{ fontSize: "1rem" }}>Next.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <p style={{ fontSize: "1rem" }}>Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiNodejs />
+        <p style={{ fontSize: "1rem" }}>Node.js</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+        <p style={{ fontSize: "1rem" }}>Mongodb </p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <p style={{ fontSize: "1rem" }}>Git</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+        <p style={{ fontSize: "1rem" }}>Firebase</p>
       </Col>
     </Row>
   );

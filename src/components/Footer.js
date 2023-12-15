@@ -1,11 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import "../Footer.css";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+  FaMapMarker,
+  FaPhone,
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaGlobe,
+} from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -13,52 +16,51 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+        <Col md="6">
+          <h2>
+            <b style={{ color: "white" }}> Contact Me </b>
+          </h2>
+          <FaMapMarker />{" "}
+          <b style={{ color: "white" }}> Kadiköy, Istanbul, Turkey </b>
+          <br />
+          <FaPhone /> <b style={{ color: "white" }}> +90 (542) 282-7740 </b>
+          <br />
+          <FaEnvelope />{" "}
+          <a href="mailto:aliihsantas34@gmail.com" className="footer-anchor">
+            aliihsantas34@gmail.com
+          </a>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+        <Col md="6" className="footer-body">
+          <h3>Follow Me</h3>
+          <ul className="list-unstyled">
+            <li>
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://github.com/ihsan215"
+                target="_blank"
                 rel="noopener noreferrer"
+                className="footer-anchor"
               >
-                <AiFillGithub />
+                <FaGithub /> Github
               </a>
             </li>
-            <li className="social-icons">
+            <li>
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://www.linkedin.com/in/ali-ihsan-tas/"
+                target="_blank"
                 rel="noopener noreferrer"
+                className="footer-anchor"
               >
-                <AiOutlineTwitter />
+                <FaLinkedin /> LinkedIn
               </a>
             </li>
-            <li className="social-icons">
+            <li>
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="https://avesis.yildiz.edu.tr/17296"
+                target="_blank"
                 rel="noopener noreferrer"
+                className="footer-anchor"
               >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
+                <FaGlobe /> Academic Works
               </a>
             </li>
           </ul>
