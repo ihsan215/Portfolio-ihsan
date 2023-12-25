@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMediumCircle,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaBook } from "react-icons/fa";
 
@@ -90,6 +91,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@aliihsantas34"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMediumCircle />
                 </a>
               </li>
               <li className="social-icons">

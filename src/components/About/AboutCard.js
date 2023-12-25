@@ -22,17 +22,47 @@ function AboutCard() {
             same field.
             <br />
             <br />
+            My focus is on understanding blockchain's fundamental nature and its
+            impact on the future. I explore decentralized frameworks,{" "}
+            <span className="purple">
+              {" "}
+              Smart Contracts, DeFi, DAOs, Dapps, and Ethereum protocols.
+            </span>{" "}
+            To facilitate this intellectual journey, I have diligently
+            undertaken technical studies imbued with the principles of Web 3.0.
+            This involves a meticulous exploration of{" "}
+            <span className="purple">
+              {" "}
+              Solidity, JavaScript, React.js, Node.js, Next.js, and C++
+            </span>
+            , with the intent to gain an adept understanding of these languages
+            and frameworks. By immersing myself in these technical disciplines,
+            I aim to contribute to blockchain-based solutions through a
+            comprehensive skill set.
+            <br />
+            <br />
             My Certificates;
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Blockchain Expert
+              <a
+                href="https://www.credential.net/2f5dcd88-9239-42b3-9166-04e53fac0785#gs.1t2s00"
+                target="_blank"
+                rel="noreferrer"
+                className="certficaiton-link"
+              >
+                <ImPointRight /> Blockchain Expert
+              </a>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Blockchain Expert
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Blockchain Expert
+              <a
+                href="https://www.credential.net/af5e7790-7844-49d1-b774-3389e980bceb#gs.2mrm38"
+                target="_blank"
+                rel="noreferrer"
+                className="certficaiton-link"
+              >
+                <ImPointRight /> Certified Solidity Developer
+              </a>
             </li>
           </ul>
         </blockquote>
