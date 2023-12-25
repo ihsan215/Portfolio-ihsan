@@ -72,7 +72,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sci}
-              isBlog={false}
               title="My Acedamic Articles"
               description="It contains my scientific publications on engineering and algorithm development."
               ghLink="https://avesis.yildiz.edu.tr/17296/yayinlar"
@@ -82,7 +81,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={medium_articles}
-              isBlog={false}
               title="My Medium Articles"
               description="It includes my articles on Blockchain technologies."
               ghLink="https://medium.com/@aliihsantas34"
