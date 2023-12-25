@@ -7,6 +7,8 @@ import blockchainDemo from "../../Assets/Projects/blockchainDemo.png";
 import js from "../../Assets/Projects/js.png";
 import sol from "../../Assets/Projects/sol.png";
 import react from "../../Assets/Projects/react.png";
+import sci from "../../Assets/Projects/sci.png";
+import medium_articles from "../../Assets/Projects/medium_articles.png";
 
 function Projects() {
   return (
@@ -65,6 +67,26 @@ function Projects() {
               title="React.js - Tutorial Projects"
               description="This project series  is a curated collection of hands-on projects focused on leveraging the React JavaScript library. These projects serve as a structured learning path, starting from foundational concepts like components and state management and progressing towards more advanced topics such as API integration, state handling with Redux, authentication, and deployment strategies. Each project incrementally builds upon the last, providing a comprehensive understanding of React development while honing skills in creating interactive and scalable web applications."
               ghLink="https://github.com/ihsan215/JavaScript-Projects"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sci}
+              isBlog={false}
+              title="My Acedamic Articles"
+              description="It contains my scientific publications on engineering and algorithm development."
+              ghLink="https://avesis.yildiz.edu.tr/17296/yayinlar"
+              isBlog={true}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={medium_articles}
+              isBlog={false}
+              title="My Medium Articles"
+              description="It includes my articles on Blockchain technologies."
+              ghLink="https://medium.com/@aliihsantas34"
+              isBlog={true}
             />
           </Col>
         </Row>
