@@ -51,7 +51,7 @@ function AboutCard() {
                 rel="noreferrer"
                 className="certficaiton-link"
               >
-                <ImPointRight /> Blockchain Expert
+                <ImPointRight /> Blockchain Expert (Show Credential)
               </a>
             </li>
             <li className="about-activity">
@@ -61,7 +61,7 @@ function AboutCard() {
                 rel="noreferrer"
                 className="certficaiton-link"
               >
-                <ImPointRight /> Certified Solidity Developer
+                <ImPointRight /> Certified Solidity Developer (Show Credential)
               </a>
             </li>
           </ul>

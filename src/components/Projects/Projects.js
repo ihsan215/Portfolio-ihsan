@@ -9,6 +9,7 @@ import sol from "../../Assets/Projects/sol.png";
 import react from "../../Assets/Projects/react.png";
 import sci from "../../Assets/Projects/sci.png";
 import medium_articles from "../../Assets/Projects/medium_articles.png";
+import smartStakingWallet from "../../Assets/Projects/smartStakingWallet.png";
 
 function Projects() {
   return (
@@ -30,6 +31,16 @@ function Projects() {
               description="Welcome to CrowdFundMe, a decentralized crowdfunding application built on the Ethereum blockchain. CrowdFundMe aims to provide a secure, transparent, and trustless platform for creators and backers to connect and collaborate on innovative projects"
               ghLink="https://github.com/ihsan215/Crowd-Fund-Me"
               demoLink="https://crowdfundme-client.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smartStakingWallet}
+              isBlog={false}
+              title="Smart Staking Wallet"
+              description="This project contains the codebase for a staking wallet that empowers users to engage in staking activities with Ethereum (ETH) to earn, an ERC20 token. The wallet interface enables seamless deposit and withdrawal functionalities from a staking pool, providing users the flexibility to manage their staked assets effortlessly."
+              ghLink="https://github.com/ihsan215/smart-staking-wallet-dapp"
+              demoLink="https://smart-staking-wallet.web.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -66,7 +77,7 @@ function Projects() {
               isBlog={false}
               title="React.js - Tutorial Projects"
               description="This project series  is a curated collection of hands-on projects focused on leveraging the React JavaScript library. These projects serve as a structured learning path, starting from foundational concepts like components and state management and progressing towards more advanced topics such as API integration, state handling with Redux, authentication, and deployment strategies. Each project incrementally builds upon the last, providing a comprehensive understanding of React development while honing skills in creating interactive and scalable web applications."
-              ghLink="https://github.com/ihsan215/JavaScript-Projects"
+              ghLink="https://github.com/ihsan215/ReactJS-Projects"
             />
           </Col>
           <Col md={4} className="project-card">
