@@ -16,6 +16,7 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiAwsamplify,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -61,6 +62,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
         <p style={{ fontSize: "1rem" }}>Firebase</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAwsamplify />
+        <p style={{ fontSize: "1rem" }}>AWS Amplify</p>
       </Col>
     </Row>
   );

@@ -10,6 +10,7 @@ import react from "../../Assets/Projects/react.png";
 import sci from "../../Assets/Projects/sci.png";
 import medium_articles from "../../Assets/Projects/medium_articles.png";
 import smartStakingWallet from "../../Assets/Projects/smartStakingWallet.png";
+import chainVote from "../../Assets/Projects/chainVote.png";
 
 function Projects() {
   return (
@@ -23,6 +24,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chainVote}
+              isBlog={false}
+              title="Chain Vote Survey System"
+              description="Blockchain survey evaluation system that I developed for Nurol Makina with the Arkheproject team. In practice, survey results are stored on the blockchain and participants are given tokens to be used within the company. I developed the site from scratch ready for use. You can check the demo version."
+              demoLink="https://chain-vote-995a5.web.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crowdfundme}
